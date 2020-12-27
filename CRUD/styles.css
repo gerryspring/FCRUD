@@ -1,0 +1,29 @@
+body{
+    background-color:tomato;
+}
+
+.CRUD{
+    display: grid;
+    place-items: center;
+    margin:auto;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+input{
+    margin:auto;
+    width: 700px;
+    border:3px solid groove;
+    display: block; 
+    margin-bottom: 2em;  
+    text-align: center;
+}
+
+
+li{
+    list-style-type: none;
+}
