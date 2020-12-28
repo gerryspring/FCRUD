@@ -1,39 +1,52 @@
 body{
-    background-color:tomato;
-}
+    background-color:rgb(16, 58, 136);
 
+}
 .CRUD{
-    display: grid;
-    place-items: center;
     margin:auto;
     background-color: whitesmoke;
-    border: 5px solid black;
+    border: 3px solid black;
     width: 900px;
     height: 600px;
-    justify-content: center;
+    text-align: center;
+
     margin-top: 5em;
 }
 
-input{
-    margin:auto;
+.form-title{
+    font-family: Helvetica;
+    padding-bottom: 2em;
+}
+
+.list-inputs{
+   margin-top: -50px;
+}
+.regular-input{
+    margin-bottom: 2em;
     width: 700px;
-    border:3px solid groove;
-    display: block; 
-    margin-bottom: 2em;  
     text-align: center;
 }
 
 select{
     width: 720px;
-    height: 35px;
+    height: 33px;
     text-align-last: center;
     margin-bottom: 2em;
 
+}
 
+.crud-btns{
+    margin-bottom:  1em;
+    width: 360px;
+    height: 33px;
 
 }
 
-
+.special{
+    width: 720px;
+    height: 33px;
+    margin-bottom: 1em;
+}
 
 
 li{

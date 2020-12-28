@@ -11,19 +11,21 @@
 
     <div class="panel-center">
     <div class="CRUD">
-        <h1>FORM</h1>
-        <ol>
+        <h1 class="form-title">FORM</h1>
+        <ol class=list-inputs>
             <li>
-                <input placeholder="first name" type="text">
+                <input class="regular-input"  placeholder="first name" type="text">
             </li>
             <li>
-                <input placeholder="second name" type="text">
+                <input class="regular-input" placeholder="second name" type="text">
             </li>
             <li>
-                <input type="email" placeholder="email"name="" id="">
+                <input class="regular-input" type="email" placeholder="email"name="" id="">
             </li>
             <li>
-                <select>
+                <select >
+                    <option value="" selected disabled hidden>choose role</option>
+                        
                     <option value="chiefarchitect">Chief Architect</option>
                     <option value="softwarearchitect">Software Architect</option>
                     <option value="epmem">Engineering Project Manager/Engineering Manager</option>
@@ -35,10 +37,33 @@
                 </select>
             </li>
             <li>
-                <input type="tel" placeholder="cell-phone"name="" id="">
+                <input class="regular-input" type="tel" placeholder="cell-phone"name="" id="">
 
             </li>
 
+            <li>
+                <button class="crud-btns">
+                    crate
+                </button>
+                <button class="crud-btns">
+                    read
+                </button>
+            </li>
+
+            <li>
+                <button class="crud-btns">
+                    update
+                </button>
+                <button class="crud-btns">
+                    delete
+                </button>
+            </li>
+
+            <li>
+                <button class="crud-btns special">
+                    list
+                </button>
+            </li>
         </ol>
     </div>
     </div>
